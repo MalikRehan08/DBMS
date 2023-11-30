@@ -141,7 +141,7 @@ def calculate_average_age(category_name):
     average_age = result[0]
     return average_age
 
-st.header("Function: Average Victim Age")
+st.header("Average Victim Age")
 category_name = st.selectbox("Select Crime Category", ["Assault", "Robbery", "Burglary", "Murder", "Kidnapping", "Arson", "Vandalism", "Drug Trafficking", "Cybercrime", "Terrorism"])
 
 # Button to trigger the function
@@ -153,7 +153,7 @@ if st.button("Calculate Average Age"):
 
 #JOIN query
 
-st.header("Join Query: Crime Information with Victims and Suspects")
+st.header("Crime Information with Victims and Suspects")
 
 # Placeholder to store the results
 join_query_results = None
@@ -203,7 +203,7 @@ if join_query_results is not None:
 
 # Aggregate Query
 
-st.header("Aggregate Query: Total Number of Crimes by Category")
+st.header("Total Number of Crimes by Category")
 # Placeholder to store the results
 aggregate_query_results = None
 
@@ -234,7 +234,7 @@ if aggregate_query_results is not None:
 
 # Nested Query
 
-st.header("Nested Query: Crimes with Average Victim Age Greater Than 30")
+st.header("Crimes with Average Victim Age Greater Than 30")
 # Placeholder to store the results
 nested_query_results = None
 
